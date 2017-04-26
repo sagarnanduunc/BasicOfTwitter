@@ -16,7 +16,8 @@ This code can be used for many different purposes. By changing the filter parame
 *Site: http://docs.tweepy.org/en/v3.5.0/cursor_tutorial.html
 
 ##For example:
-'''
+```
+
  #Find statuses that match our interests
             self.log.debug("Strategy set to FOLLOW or TWEET")
             n = hits_per_query
@@ -29,12 +30,13 @@ This code can be used for many different purposes. By changing the filter parame
             for q in queries:
                 search_dict['q'] = q
                 results = [c for c in Cursor(api.search, **search_dict).items(n)]
-'''
+```
+
 Reference: http://www.programcreek.com/python/example/76301/tweepy.Cursor
 
 #How to get my code running?
 *	Place the data file (‘dota.txt’) in the same directory as snandu1.py (Analysis file)
 *	I work on Jupyter notebooks. So, output for command prompt will first reqire you to run a command: chcp 65001 (ON WINDOWS)
-**	Since twitter has Unicode characters and command prompt is not equipped to print that
+*	*Since twitter has Unicode characters and command prompt is not equipped to print that
 *	Then just run the file and you should get the output on command prompt
 *	Also, output is stored as csv files with ‘|’ as a separator. You will get all those files in the same folder. You will manually need to convert all those files
