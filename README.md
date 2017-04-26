@@ -13,7 +13,7 @@ One thing to note is Twitter public API will give tweets only from last 21 days.
 Final part of the code gets tweets with filter criteria provided and takes only the user’s screen_name, time of tweet, text, users follower count, and tweets retweet count till current time and stores everything in a file with name your SearchString.txt
 
 This code can be used for many different purposes. By changing the filter parameters, you get the way you want your filter query to collect tweets.
-*Site: http://docs.tweepy.org/en/v3.5.0/cursor_tutorial.html
+* Site: http://docs.tweepy.org/en/v3.5.0/cursor_tutorial.html
 
 ## For example:
 ```
